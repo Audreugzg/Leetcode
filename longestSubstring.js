@@ -5,7 +5,7 @@ var lengthOfLongestSubstring = function(s) {
   let currentString = s[0];
   for (let i = 0; i < s.length; i++) {
     let index = currentString.indexOf(s[i]);
-    if (index > -1) {
+    if (index > -1){
       if(currentString.length > longestString.length){
         longestString = currentString;
 
